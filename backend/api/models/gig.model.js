@@ -1,0 +1,74 @@
+import mongoose from "mongoose";
+const { Schema } = mongoose;
+
+const GigSchema = new Schema(
+  {
+    userId: {
+      type: String,
+      required: true,
+    },
+    title: {
+      type: String,
+      required: true,
+    },
+    desc: {
+      type: String,
+      required: true,
+    },
+    totalStar: {
+      type: Number,
+      default: 0,
+    },
+    starNumber: {
+      type: Number,
+      default: 0,
+    },
+    cat: {
+      type: String,
+      required: true,
+    },
+    price: {
+      type: Number,
+      required: true,
+    },
+    cover: {
+      type: String,
+      required: true,
+    },
+    images: {
+      type: [String],   //array of Cloudinary URLs
+      default: [],
+    },
+    shortTitle: {
+      type: String,
+      required: true,
+    },
+    shortDesc: {
+      type: String,
+      required: true,
+    },
+    deliveryTime: {
+      type: Number,     
+      required: true,
+    },
+    revisionNumber: {
+      type: Number,
+      required: true,
+    },
+    features: {
+      type: [String],
+      default: [],
+    },
+    sales: { 
+      type: Number, 
+      default: 0 
+    },
+  },
+  {
+    timestamps: true,
+  }
+);
+
+const Gig = mongoose.models.Gig || mongoose.model("Gig", GigSchema);  // Check if the model already exists
+
+export default Gig;

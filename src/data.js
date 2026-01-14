@@ -1,0 +1,131 @@
+export const cards = [
+  {
+    id: 1,
+    title: "Web Design",
+    desc: "Build and design stunning websites",
+    img: "https://img.freepik.com/free-photo/web-design-technology-browsing-programming-concept_53876-163260.jpg",
+  },
+  {
+    id: 2,
+    title: "Graphic Design",
+    desc: "Create visual content to communicate messages",
+    img: "https://mybeta.ca/wp-content/uploads/2025/04/graphic-design.jpg",
+  },
+  {
+    id: 3,
+    title: "Digital Marketing",
+    desc: "Promote brands to connect with potential customers",
+    img: "https://www.monash.edu/__data/assets/image/0006/3997950/illustration-digital-marketing.jpg",
+  },
+  {
+    id: 4,
+    title: "Video Editing",
+    desc: "Edit and produce engaging video content",
+    img: "https://sb-wp-assets.storyblocks.com/resources/wp-content/uploads/2024/05/27103627/videoeditorskills_thumbnail.jpg",
+  },
+  {
+    id: 5,
+    title: "Content Writing",
+    desc: "Craft compelling articles and blog posts",
+    img: "https://www.simplilearn.com/ice9/free_resources_article_thumb/How_To_Become_A_Content_Writer.jpg",
+  },
+  {
+    id: 6,
+    title: "SEO Services",
+    desc: "Optimize websites to rank higher on search engines",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVyYgZuG7iqQBfiv-MI5vwL0fIABYwpVzDRg&s",
+  },
+];
+
+export const projects = [
+  {
+    id: 1,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUtlIaU6C0TQs8XNn0SY5FaWIsO1CHfZTU8Q&s",
+    pp: "https://png.pngtree.com/background/20230611/original/pngtree-green-field-landscape-wallpapers-picture-image_3163831.jpg",
+    cat: "Gig1",
+    username: "Anna Bell",
+  },
+  {
+    id: 2,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUtlIaU6C0TQs8XNn0SY5FaWIsO1CHfZTU8Q&s",
+    pp: "https://png.pngtree.com/background/20230611/original/pngtree-green-field-landscape-wallpapers-picture-image_3163831.jpg",
+    cat: "Gig2",
+    username: "Anna Bell",
+  },
+  {
+    id: 3,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUtlIaU6C0TQs8XNn0SY5FaWIsO1CHfZTU8Q&s",
+    pp: "https://png.pngtree.com/background/20230611/original/pngtree-green-field-landscape-wallpapers-picture-image_3163831.jpg",
+    cat: "Gig3",
+    username: "Anna Bell",
+  },
+  {
+    id: 4,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUtlIaU6C0TQs8XNn0SY5FaWIsO1CHfZTU8Q&s",
+    pp: "https://png.pngtree.com/background/20230611/original/pngtree-green-field-landscape-wallpapers-picture-image_3163831.jpg",
+    cat: "Gig4",
+    username: "Anna Bell",
+  },
+  {
+    id: 5,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUtlIaU6C0TQs8XNn0SY5FaWIsO1CHfZTU8Q&s",
+    pp: "https://png.pngtree.com/background/20230611/original/pngtree-green-field-landscape-wallpapers-picture-image_3163831.jpg",
+    cat: "Gig5",
+    username: "Anna Bell",
+  },
+  {
+    id: 6,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUtlIaU6C0TQs8XNn0SY5FaWIsO1CHfZTU8Q&s",
+    pp: "https://png.pngtree.com/background/20230611/original/pngtree-green-field-landscape-wallpapers-picture-image_3163831.jpg",
+    cat: "Gig6",
+    username: "Anna Bell",
+  },
+];
+
+export const gigs = [
+  {
+    id: 1,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUtlIaU6C0TQs8XNn0SY5FaWIsO1CHfZTU8Q&s",
+    pp: "https://png.pngtree.com/background/20230611/original/pngtree-green-field-landscape-wallpapers-picture-image_3163831.jpg",
+    desc: "Gig1 desc",
+    price: 112,
+    star: 5,
+    username: "Anna Bell",
+  },
+  {
+    id: 2,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUtlIaU6C0TQs8XNn0SY5FaWIsO1CHfZTU8Q&s",
+    pp: "https://png.pngtree.com/background/20230611/original/pngtree-green-field-landscape-wallpapers-picture-image_3163831.jpg",
+    desc: "Gig3 desc",
+    price: 112,
+    star: 2,
+    username: "Anna Bell",
+  },
+  {
+    id: 3,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUtlIaU6C0TQs8XNn0SY5FaWIsO1CHfZTU8Q&s",
+    pp: "https://png.pngtree.com/background/20230611/original/pngtree-green-field-landscape-wallpapers-picture-image_3163831.jpg",
+    desc: "Gig3 desc",
+    price: 112,
+    star: 4,
+    username: "Anna Bell",
+  },
+  {
+    id: 4,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUtlIaU6C0TQs8XNn0SY5FaWIsO1CHfZTU8Q&s",
+    pp: "https://png.pngtree.com/background/20230611/original/pngtree-green-field-landscape-wallpapers-picture-image_3163831.jpg",
+    desc: "Gig4 desc",
+    price: 112,
+    star: 1,
+    username: "Anna Bell",
+  },
+  {
+    id: 5,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUtlIaU6C0TQs8XNn0SY5FaWIsO1CHfZTU8Q&s",
+    pp: "https://png.pngtree.com/background/20230611/original/pngtree-green-field-landscape-wallpapers-picture-image_3163831.jpg",
+    desc: "Gig5 desc",
+    price: 112,
+    star: 5,
+    username: "Anna Bell",
+  },
+];

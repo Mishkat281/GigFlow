@@ -7,8 +7,7 @@ Backend: Node.js, Express, MongoDB
 
 ## Setup
 Create a `.env` file in backend:
-MONGO=your_mongodb_uri
-JWT_KEY=your_secret
+MONGO & JWT_KEY
 
 Run backend with `npm start`
 Run frontend with `npm run dev`
